@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Serial">
+      <UniqueIdentifier>{c5766be0-f7bc-4ebe-bbad-9f5db79743c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serial">
+      <UniqueIdentifier>{c5500b9c-59da-411b-a78f-5bebac344783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{ec66c58e-5d20-41e6-942a-d331205130c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{c93bebcb-8a5b-4c9d-b7c0-a180cac327df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LinkLayer">
+      <UniqueIdentifier>{e7c2e03e-537e-4a0a-80a7-c9d383b42b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinkLayer">
+      <UniqueIdentifier>{459be3fe-3680-444f-a0c2-7d3abf458760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\codec">
+      <UniqueIdentifier>{01b4fcca-ba44-4fac-bf5d-c103fd5cbec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\codec">
+      <UniqueIdentifier>{b219b717-6fbf-446b-98df-155540ba6917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppLayer">
+      <UniqueIdentifier>{aad03203-9328-496e-ab62-f3db40810f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppLayer">
+      <UniqueIdentifier>{3f99ad32-1319-4f27-ab39-bcdf1a638c52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="serial\list_ports_win.cc">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="serial\serial.cc">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="serial\win.cc">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\State.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\StateMachine.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkLayer\LinkLayer.cpp">
+      <Filter>Source Files\LinkLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkLayer\LinkLayerStates.cpp">
+      <Filter>Source Files\LinkLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\aes256.c">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\crc.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="AppLayer\DJIDrone.cpp">
+      <Filter>Source Files\AppLayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="serial\serial.h">
+      <Filter>Header Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="serial\v8stdint.h">
+      <Filter>Header Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="serial\win.h">
+      <Filter>Header Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\State.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\StateMachine.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\WaitQueue.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLayer\LinkLayer.h">
+      <Filter>Header Files\LinkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLayer\LinkLayerStates.h">
+      <Filter>Header Files\LinkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLayer\LinkLayerSharedData.h">
+      <Filter>Header Files\LinkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\aes256.h">
+      <Filter>Header Files\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\crc.h">
+      <Filter>Header Files\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLayer\LinkLayerStructs.h">
+      <Filter>Header Files\LinkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLayer\LinkLayerMacros.h">
+      <Filter>Header Files\LinkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ThreadPool.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLayer\AppLayerTypes.h">
+      <Filter>Header Files\AppLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLayer\AppLayerMacros.h">
+      <Filter>Header Files\AppLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLayer\DJIDrone.h">
+      <Filter>Header Files\AppLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Semaphore.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

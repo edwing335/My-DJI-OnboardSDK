@@ -1,0 +1,166 @@
+# depslib dependency file v1.0
+1443357797 source:/home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayer.cpp
+	"LinkLayerStates.h"
+	"LinkLayerSharedData.h"
+	"LinkLayerStructs.h"
+	"Utility/StateMachine.h"
+	"Serial/serial.h"
+	"LinkLayer.h"
+	<cassert>
+	<iostream>
+	<thread>
+	<limits>
+	<chrono>
+
+1443356152 /home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayerStates.h
+	"Utility/State.h"
+	<string>
+
+1442199060 /home/xlu/workspace/NewOnboardSDK/Utility/State.h
+	<vector>
+	<string>
+
+1443330667 /home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayerSharedData.h
+	"Utility/StateMachine.h"
+	"LinkLayerMacros.h"
+
+1442199044 /home/xlu/workspace/NewOnboardSDK/Utility/StateMachine.h
+	<stack>
+	<map>
+	<string>
+
+1440337730 /home/xlu/workspace/NewOnboardSDK/Serial/serial.h
+	<limits>
+	<vector>
+	<string>
+	<cstring>
+	<sstream>
+	<exception>
+	<stdexcept>
+	"v8stdint.h"
+
+1439518272 /home/xlu/workspace/NewOnboardSDK/Serial/v8stdint.h
+	<stddef.h>
+	<stdio.h>
+	<stdint.h>
+
+1443357388 /home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayer.h
+	"Utility/WaitQueue.h"
+	<memory>
+	<thread>
+	<atomic>
+	<functional>
+	<chrono>
+	<map>
+
+1443166990 /home/xlu/workspace/NewOnboardSDK/Utility/WaitQueue.h
+	<queue>
+	<utility>
+	<mutex>
+	<condition_variable>
+
+1443356960 source:/home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayerStates.cpp
+	"LinkLayerStates.h"
+	"LinkLayerSharedData.h"
+	"LinkLayerStructs.h"
+	<cassert>
+	<iostream>
+	<cstring>
+	"codec/crc.h"
+	"codec/aes256.h"
+
+1443323664 source:/home/xlu/workspace/NewOnboardSDK/main.cpp
+	<iostream>
+
+1442993176 source:/home/xlu/workspace/NewOnboardSDK/Serial/list_ports_win.cc
+	"serial.h"
+	<tchar.h>
+	<windows.h>
+	<setupapi.h>
+	<initguid.h>
+	<devguid.h>
+	<cstring>
+
+1443324141 source:/home/xlu/workspace/NewOnboardSDK/Serial/list_ports_linux.cc
+	<vector>
+	<string>
+	<sstream>
+	<stdexcept>
+	<iostream>
+	<fstream>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<glob.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	"Serial/serial.h"
+
+1440337616 source:/home/xlu/workspace/NewOnboardSDK/Serial/serial.cc
+	<algorithm>
+	<alloca.h>
+	"serial.h"
+	"win.h"
+	"unix.h"
+
+1440384548 /home/xlu/workspace/NewOnboardSDK/Serial/win.h
+	"serial.h"
+	"windows.h"
+
+1443324147 /home/xlu/workspace/NewOnboardSDK/Serial/unix.h
+	"Serial/serial.h"
+	<pthread.h>
+
+1443324960 /home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayerMacros.h
+
+1443324159 source:/home/xlu/workspace/NewOnboardSDK/Serial/unix.cc
+	<stdio.h>
+	<string.h>
+	<sstream>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	<errno.h>
+	<paths.h>
+	<sysexits.h>
+	<termios.h>
+	<sys/param.h>
+	<pthread.h>
+	<linux/serial.h>
+	<sys/select.h>
+	<sys/time.h>
+	<time.h>
+	<AvailabilityMacros.h>
+	<mach/clock.h>
+	<mach/mach.h>
+	"Serial/unix.h"
+	<IOKit/serial/ioss.h>
+
+1440337634 source:/home/xlu/workspace/NewOnboardSDK/Serial/win.cc
+	<sstream>
+	"win.h"
+
+1442199060 source:/home/xlu/workspace/NewOnboardSDK/Utility/State.cpp
+	"State.h"
+	"StateMachine.h"
+	<algorithm>
+	<cassert>
+
+1442400942 source:/home/xlu/workspace/NewOnboardSDK/Utility/StateMachine.cpp
+	"StateMachine.h"
+	"State.h"
+	<assert.h>
+
+1443325261 source:/home/xlu/workspace/NewOnboardSDK/codec/aes256.c
+	"aes256.h"
+
+1443325260 /home/xlu/workspace/NewOnboardSDK/codec/aes256.h
+
+1443341624 source:/home/xlu/workspace/NewOnboardSDK/codec/crc.cpp
+
+1443340651 /home/xlu/workspace/NewOnboardSDK/LinkLayer/LinkLayerStructs.h
+
+1443330492 /home/xlu/workspace/NewOnboardSDK/codec/crc.h
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NewOnboardSDK" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NewOnboardSDK" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="." />
+				</Compiler>
+				<Linker>
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NewOnboardSDK" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="." />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="LinkLayer/LinkLayer.cpp" />
+		<Unit filename="LinkLayer/LinkLayer.h" />
+		<Unit filename="LinkLayer/LinkLayerMacros.h" />
+		<Unit filename="LinkLayer/LinkLayerSharedData.h" />
+		<Unit filename="LinkLayer/LinkLayerStates.cpp" />
+		<Unit filename="LinkLayer/LinkLayerStates.h" />
+		<Unit filename="LinkLayer/LinkLayerStructs.h" />
+		<Unit filename="Serial/list_ports_linux.cc" />
+		<Unit filename="Serial/list_ports_win.cc" />
+		<Unit filename="Serial/serial.cc" />
+		<Unit filename="Serial/serial.h" />
+		<Unit filename="Serial/unix.cc" />
+		<Unit filename="Serial/unix.h" />
+		<Unit filename="Serial/v8stdint.h" />
+		<Unit filename="Utility/State.cpp" />
+		<Unit filename="Utility/State.h" />
+		<Unit filename="Utility/StateMachine.cpp" />
+		<Unit filename="Utility/StateMachine.h" />
+		<Unit filename="Utility/WaitQueue.h" />
+		<Unit filename="codec/aes256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="codec/aes256.h" />
+		<Unit filename="codec/crc.cpp" />
+		<Unit filename="codec/crc.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
